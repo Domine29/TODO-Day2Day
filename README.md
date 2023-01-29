@@ -4,7 +4,6 @@
 
 
 ## Tech Stack:
-<hr>
 <br>
 <ul>
   <li style="display: flex; flex-direction: row; gap: 2%">FRONTEND: 
@@ -42,7 +41,6 @@
 </ul>
 
 ## Implementation:
-<hr>
 <ul>
   <li>React/TS: Layout content</li>
   <li>CSS: Style Content</li>
@@ -55,7 +53,6 @@
 
 
 ## Design
-<hr>
 <br>
 <div style="display: flex; flex-direction: row; gap: 20%">
 
@@ -66,7 +63,6 @@
 </div>
 
 ## Database Schema
-<hr>
 <br>
 
 ![db_schema](todo_db_schema.png)
@@ -78,7 +74,6 @@
 
 
 ## License
-<hr>
 
 [![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
