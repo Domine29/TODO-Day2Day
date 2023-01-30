@@ -71,9 +71,19 @@
 - A USER can have many (one-to-may relationship) TASKs
 - A TASK will have a Title, a Date when it was created, and a Completed status that is defaulted to `false` (i.e. "Pending")
 
+## Backend Setup
+<br>
+
+1. Create Virtual Environment in parent directory: ``` python -m venv .venv``` then activate it ```source .venv/bin/activate```
+2. Install backend dependencies: ``` cd backend ``` then ``` pip install -r requirements.txt ```
+3. Create directory named "static": ``` mkdir static ```
+4. Ensure you have [PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/) installed and running:
+5. Create Database: ``` createdb todo_db ```
+6. Make migrations and Migrate models: ``` python manage.py makemigrations ``` then ``` python manage.py migrate ```
 
 
 ## License
 
 [![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
 
