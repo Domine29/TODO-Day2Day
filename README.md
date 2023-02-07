@@ -81,6 +81,12 @@
 5. Create Database: ``` createdb todo_db ```
 6. Make migrations and Migrate models: ``` python manage.py makemigrations ``` then ``` python manage.py migrate ```
 
+## Frontend Setup
+<br>
+
+1. Install frontend dependencies: ``` npm install ```
+
+
 
 ## License
 

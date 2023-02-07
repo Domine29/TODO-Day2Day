@@ -12,5 +12,6 @@ class User(AbstractUser):
 
 class Task(models.Model): 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    title = models.TextField()
     completed = models.BooleanField(default=False)
     date_created = models.DateField(auto_now_add=True)
