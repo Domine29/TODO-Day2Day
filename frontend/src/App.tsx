@@ -1,11 +1,13 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './TodoApp/RootLayout';
 import './index.css';
+import { loader as tasksLoader } from './TodoApp/TaskSection/TaskSection';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/day2day',
     element: <RootLayout />,
+    loader: tasksLoader,
   },
 ]);
 
